@@ -1,0 +1,36 @@
+
+.App-NavBar {
+    position: fixed;
+    bottom: 4rem;
+    left: 40rem;
+    animation: showHeader 2s;
+    animation-name: showhead;
+  }
+  
+  /* @keyframes showHeader{
+    from {bottom: 0px}
+    to{bottom:50px}
+  } */
+  
+  @keyframes showhead{
+    0%  { opacity: 0 }
+    10% { opacity: 0.1 }
+    20% { opacity: 0.2 }
+    30% { opacity: 0.3 } 
+    40% { opacity: 0.4 } 
+    50% { opacity: 0.5 } 
+    60% { opacity: 0.6 } 
+    70% { opacity: 0.7 } 
+    80% { opacity: 0.8 } 
+    90% { opacity: 0.9 } 
+    100% { opacity: 1 }
+    from{bottom:0rem}
+    to{bottom:63px}
+  }
+  
+  .main-content {
+    width: 66%;
+    margin-left: 9rem;
+    margin-top: 5rem;
+    /* margin-right: 19rem; */
+}

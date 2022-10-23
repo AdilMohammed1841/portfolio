@@ -1,0 +1,43 @@
+.profile-container{
+    display:flex;
+    flex-direction: row;
+}
+/* .right-profile{
+    display:flex;
+    flex-direction: row;
+}
+.right-profile p {
+    width: 50%;
+    margin-left: 22rem;
+    margin-right: 5rem;
+    color: #fff;
+}
+
+.left-profile {
+    margin-left: 8rem;
+} */
+
+
+.left-profile {
+    background: rgba(255, 255, 255, 0.16);
+    padding: 82px 0px 113px 151px;
+    border-radius: 31rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    width: 33rem;
+}
+
+.right-profile{
+    display:flex;
+    flex-direction: row;
+    float: right;
+    width: 100%;
+    margin-right:-13rem
+}
+
+.right-profile p {
+    /* width: 50%;
+    margin-left: 22rem;
+    margin-right: 5rem; */
+    color: #fff;
+}
